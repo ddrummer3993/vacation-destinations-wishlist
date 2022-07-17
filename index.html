@@ -13,9 +13,37 @@
         <h1>This is my header!</h1>
       </header>
       <main>
-        <section id="user_input">
-          <p>This is where my user input will go</p>
-        </section>
+        <form id="user_input">
+          <h5>Destination Name</h5>
+          <input
+            type="text"
+            name="Destination Name"
+            id="destination_name"
+            placeholder="Enter destination name"
+          />
+          <h5>Location</h5>
+          <input
+            type="text"
+            name="Location"
+            id="location"
+            placeholder="Enter Location"
+          />
+          <h5>Photo</h5>
+          <input
+            type="text"
+            name="Photo"
+            id="photo"
+            placeholder="Enter image URL of destination"
+          />
+          <h5>Description</h5>
+          <input
+            type="text"
+            name="Description"
+            id="Description"
+            placeholder="Enter a breif description"
+          />
+          <input id="submit_btn" type="submit" value="Add to List" />
+        </form>
         <section id="destinations">
           <h3 id="destinations_header">This is my destinations block header</h3>
           <ul id="card_container">
