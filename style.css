@@ -1,0 +1,18 @@
+
+header {
+    text-align:center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#user_input {
+    margin: 20px 20px 20px 20px;
+}
+
+#destinations {
+    margin: 20px 20px 20px 20px;
+}
+
