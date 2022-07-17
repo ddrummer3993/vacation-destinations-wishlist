@@ -1,0 +1,20 @@
+
+header {
+    text-align:center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#user_input {
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#destinations {
+    margin: 20px 20px 20px 20px;
+}
+
